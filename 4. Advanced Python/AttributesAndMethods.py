@@ -2,6 +2,7 @@
 
 class PlayerCharacter:
     # Class Object Attribute
+    # no change
     membership = True
 
     def __init__(self, name, age):
