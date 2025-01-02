@@ -4,7 +4,7 @@ class PlayerCharacter:
     # Class Object Attribute
     membership = True
 
-    def __init__(self, name, age):
+    def __init__(self, name, age): # name='anonymous', age=18 -> default
         if age > 18:
             self.name = name
             self.age = age
